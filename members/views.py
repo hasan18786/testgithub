@@ -1,3 +1,5 @@
+# This is for test view
+
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader
