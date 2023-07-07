@@ -25,6 +25,9 @@ def add(request):
 	return HttpResponse(template.render({}, request))
 
 def addmember(request):
+	'''
+	This is for to add the member
+	'''
 	x = request.POST['first']
 	y = request.POST['last']
 	Members(firstname=x, lastname=y).save()
